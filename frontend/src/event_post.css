@@ -1,0 +1,41 @@
+/* style="height: 225px; width: 100%; display: block;" */
+.card-img-top {
+
+    display: block;
+    height: 225px;
+    width: 100%;
+}
+.jumbotron {
+    background-image: url("/public/bg-3.png");
+    /*background-repeat: no-repeat;
+    */background-size: cover;
+    padding: 10rem 2rem;
+    border-radius: 0rem;
+}
+.jumbotron-heading{
+    color: #fff;
+}
+.lead {
+    color:#fff;
+    
+}
+/* Brand Logo */
+.brand-logo {
+    margin-right: 8px;
+}
+.logout {
+    text-decoration: underline;
+    color: #fff;
+}
+.my-2 {
+    margin-right: 10px;
+}
+.my-4 {
+    background-color: #212529;
+}
+.nav-item a, footer p{
+    color:#fff;
+}
+.card-body p{
+    margin-bottom: 0rem;
+}
