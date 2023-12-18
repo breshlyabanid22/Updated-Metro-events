@@ -1,0 +1,230 @@
+
+/* Apply a basic styling to the header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #212529;
+    color: white;
+    z-index: 1000; 
+  }
+  h3{
+    color: #212529;
+  }
+  /* Style the title in the header */
+  header h2 {
+    margin: 0;
+  }
+  
+  /* Style the navigation bar in the header */
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  /* Style the main container */
+  .admin-container {
+    display: flex;
+  }
+
+  /* Style the sidebar */
+  .sidebar-container {
+    max-width: 15%;
+    background-color: #383F45;
+    color: white;
+    padding: 20px;
+    margin-top: 70px; /* Adjust margin to accommodate fixed header */
+    display: block;
+    float: left;
+    height: 1150px;
+    position: fixed;
+  }
+  
+  .sidebar-container p {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-container li {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .sidebar-container a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Style the content container */
+  .content-container {
+    padding: 20px;
+    margin-left: 220px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    display: block;
+    flex-direction: column;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+table thead tr th{
+    height: 60px;
+    background: #212529;
+}
+
+.table100-head th {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: unset;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the button */
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+    
+}
+.column1 {
+    padding-left: 40px;
+}
+.textfield-container {
+  display: flex;
+}
+.calendar-div {
+  /* width: 85%;
+  float:left; */
+  margin-top: 80px;
+  margin-left: 200px;
+}
+.calendar-header{
+  width: 100%;
+
+}
+.Calendar-content {
+  height: 900px;
+  margin: 50px;
+}
+.textfield-title {
+  font-size:13px;
+  color:#555;
+  outline: none;
+  border:1px solid #bbb;
+  padding:10px 20px;
+  border-radius: 12px;
+}
+.textfield-startDate {
+  font-size:13px;
+  color:#555;
+  outline: none;
+  border:1px solid #bbb;
+  padding:10px 20px;
+  border-radius:12px;
+  margin-left: 10px;
+}
+.textfield-endDate {
+  font-size:13px;
+  color:#555;
+  outline: none;
+  border:1px solid #bbb;
+  padding:10px 20px;
+  border-radius:12px;
+  margin-left: 10px;
+}
+.react-datepicker-popper {
+  z-index: 100 !important;
+}
+
+/* CSS */
+.btn-add-event {
+  background-color: #0B5ED7;
+  border-radius: 8px;
+  border-style: none;
+  margin-left: 10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  /* line-height: 20px; */
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  /* position: relative; */
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-add-event:hover {
+  background-color: #62ace5;
+  border: 2px;
+}
+.btn-add-event:focus {
+  background-color: #24619e;
+}
+.event-booking-div {
+  margin-top: 80px;
+  margin-left: 200px;
+  
+}
+.form-card {
+  padding: 20px;
+}
+.form {
+  width:400px;
+  background-color: #d8d8d8;
+  padding: 20px;
+  border-radius: 4px;
+} 
+.form-group input{
+  padding: 5px;
+}
+.login-page-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/public/bg-login.png');
+}
